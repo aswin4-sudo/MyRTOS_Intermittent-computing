@@ -120,6 +120,13 @@ void TestTask(void *pvParameters) {
     UART_Printf("[TASK] Started!\n");
 
     while(1) {
+    	// ==========================================
+    	// PAUSE DURING POWER OFF
+    	// ==========================================
+    	while(power_mode == POWER_MODE_OFF) {
+    	    UART_Printf("[TASK] ⏸️ Waiting for power...\n");
+    	    vTaskDelay(pdMS_TO_TICKS(100));   // Wait 100ms
+    	}
         counter++;
         UART_Printf("[TASK] Counter: %lu\n", counter);
         vTaskDelay(pdMS_TO_TICKS(500));
