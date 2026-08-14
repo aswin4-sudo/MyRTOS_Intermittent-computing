@@ -1,0 +1,4 @@
+../Core/Src/power_sim.c:16:13:PowerSim_GetModeString	4	static
+../Core/Src/power_sim.c:27:6:PowerSim_Init	8	static
+../Core/Src/power_sim.c:37:6:PowerSim_Update	24	static,ignoring_inline_asm
+../Core/Src/power_sim.c:133:9:PowerSim_GetVoltagePercent	4	static

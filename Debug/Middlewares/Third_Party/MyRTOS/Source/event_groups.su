@@ -1,0 +1,15 @@
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:94:21:xEventGroupCreateStatic	32	static,ignoring_inline_asm
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:146:21:xEventGroupCreate	16	static
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:192:13:xEventGroupSync	56	static,ignoring_inline_asm
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:312:13:xEventGroupWaitBits	72	static,ignoring_inline_asm
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:462:13:xEventGroupClearBits	32	static,ignoring_inline_asm
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:491:13:xEventGroupClearBitsFromISR	24	static
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:504:13:xEventGroupGetBitsFromISR	40	static,ignoring_inline_asm
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:520:13:xEventGroupSetBits	64	static,ignoring_inline_asm
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:614:6:vEventGroupDelete	32	static,ignoring_inline_asm
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:658:6:vEventGroupSetBitsCallback	16	static
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:666:6:vEventGroupClearBitsCallback	16	static
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:672:19:prvTestWaitCondition	32	static
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:709:13:xEventGroupSetBitsFromISR	32	static
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:724:14:uxEventGroupGetNumber	24	static
+../Middlewares/Third_Party/MyRTOS/Source/event_groups.c:746:7:vEventGroupSetNumber	16	static

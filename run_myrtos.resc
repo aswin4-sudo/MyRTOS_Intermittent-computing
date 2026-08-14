@@ -1,0 +1,20 @@
+# run_myrtos.resc - MyRTOS Test Script
+
+using sysbus
+
+# Create the machine
+mach create "MyRTOS_Test"
+machine LoadPlatformDescription @platforms/boards/stm32f4_discovery-kit.repl
+
+# Load your firmware
+$bin?=@Debug/Intermittent_computing.elf
+sysbus LoadELF $bin
+
+# Setup UART to see debug output
+showAnalyzer sysbus.usart2
+
+# Start GDB server for debugging (optional)
+machine StartGdbServer 3333
+
+# Start simulation
+start

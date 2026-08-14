@@ -1,0 +1,4 @@
+../Core/Src/power_sim.c:16:13:PowerSim_GetModeString	6
+../Core/Src/power_sim.c:27:6:PowerSim_Init	1
+../Core/Src/power_sim.c:37:6:PowerSim_Update	24
+../Core/Src/power_sim.c:133:9:PowerSim_GetVoltagePercent	1

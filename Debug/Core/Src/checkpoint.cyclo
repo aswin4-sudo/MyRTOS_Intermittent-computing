@@ -1,0 +1,4 @@
+../Core/Src/checkpoint.c:13:6:Checkpoint_Init	1
+../Core/Src/checkpoint.c:21:6:Checkpoint_Save	5
+../Core/Src/checkpoint.c:49:14:Checkpoint_Restore	6
+../Core/Src/checkpoint.c:80:6:Checkpoint_PowerMonitor	1
